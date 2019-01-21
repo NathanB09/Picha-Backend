@@ -1,0 +1,2 @@
+class RelevancesController < ApplicationController
+end
