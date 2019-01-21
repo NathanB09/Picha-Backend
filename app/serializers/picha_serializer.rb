@@ -7,13 +7,13 @@ class PichaSerializer < ActiveModel::Serializer
     attributes :id, :content
   end
 
-  class TagSerializer < ActiveModel::Serializer
-    attributes :id, :description
-    has_many :relevances
-  end
+  # class TagSerializer < ActiveModel::Serializer
+  #   attributes :id, :description
+  #   has_many :relevances
+  # end
 
-  class RelevanceSerializer < ActiveModel::Serializer
-    attributes :score
-    belongs_to :tag
-  end
+  # class RelevanceSerializer < ActiveModel::Serializer
+  #   attributes :score
+  #   belongs_to :tag
+  # end
 end
