@@ -11,5 +11,7 @@ class PichasController < ApplicationController
 
   def create
     @picha = Picha.new(title: params[:title], url: params[:url], like_count: 0)
+    @picha.save
+    render json: @picha
   end
 end
