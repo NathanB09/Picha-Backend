@@ -14,4 +14,9 @@ class PichasController < ApplicationController
     @picha.save
     render json: @picha
   end
+
+  def destroy
+    @picha = Picha.find(params[:id])
+    @picha.destroy
+  end
 end
