@@ -1,24 +1,9 @@
-# README
+# Picha Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Flatiron Module 3 Final Project
 
-Things you may want to cover:
+This is the back end API for the Picha app used to store image urls and their related tags and comments
 
-* Ruby version
+Picha front-end - https://github.com/NathanB09/Picha
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
